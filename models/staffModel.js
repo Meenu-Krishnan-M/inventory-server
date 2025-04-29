@@ -13,9 +13,6 @@ const staffSchema = new mongoose.Schema({
     password: {
         required: true,
         type: String
-    },
-    profile: {
-        type: String
     }
 })
 

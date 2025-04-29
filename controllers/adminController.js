@@ -43,7 +43,7 @@ exports.staffRegisterController = async (req, res) => {
                 username, //username : username
                 email, //email : email,
                 password, //   password :password,
-                profile: ""
+                // profile: ""
             })
             await newStaff.save()
             res.status(200).json(newStaff)

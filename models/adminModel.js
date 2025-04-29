@@ -8,9 +8,6 @@ const adminSchema = new mongoose.Schema({
     password:{
         type:String,
         required:true
-    },
-    profilePic:{
-        type:String,
     }
 })
 const admins = mongoose.model("admins",adminSchema)

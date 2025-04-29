@@ -1,5 +1,4 @@
 const products = require('../models/productModel');
-const { findByIdAndUpdate } = require('../models/staffModel');
 
 
 exports.addProductController = async (req, res) => {
